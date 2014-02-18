@@ -10,6 +10,7 @@ body {
 
 img, img a {
 	border: 0;
+	vertical-align:top;
 }
 
 #contentWrapWider {
@@ -69,6 +70,9 @@ zoom: 1;
 }
 #mainBody p {
 	margin-top: 15px;
+}
+#contact #mainBody p {
+	margin-top: 0px;
 }
 #mainBody ul {
 	margin-top: 10px;
@@ -156,15 +160,22 @@ zoom: 1;
 	margin-bottom: 15px;
 	display: none;
 }
+#archives blockquote {
+	margin-bottom: 15px;
+}
+#archives blockquote p,
 #secThree blockquote p {
 	display: inline;
 }
+#archives blockquote p:first-child:before,
 #secThree blockquote p:first-child:before {
 	content: "\201C";
 }
+#archives blockquote p:first-child:after,
 #secThree blockquote p:first-child:after {
 	content: "\201D";
 }
+#archives blockquote p:last-child:before,
 #secThree blockquote p:last-child:before {
 	content: "\2014\00a0";
 }
@@ -242,7 +253,10 @@ zoom: 1;
 
 
 
-.mainImage {
+#contact p:last-of-type > img {
+	margin-top: 40px;
+	margin-bottom: -20px;
+	margin-left: -30px;
 }
 
 #hpBookJacket {

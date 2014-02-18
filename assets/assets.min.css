@@ -70,7 +70,7 @@ a.sm2_button.sm2_paused,a.sm2_button.sm2_paused:hover{background-color:#666}
 /* /css/app.css */
 html,body,div,p,h1,h2,h3,blockquote,ol,ul,li,dl,dt,dd,td,form,fieldset,a{margin:0;padding:0;border:0}
 body{background:#9c9 url(/images/background.gif) repeat-x left top}
-img,img a{border:0}
+img,img a{border:0;vertical-align:top}
 #contentWrapWider{width:925px;margin:0 auto}
 #contentWrap{width:925px;margin:0 auto}
 * html #mainBody p{overflow:visible;height:1%;display:inline;zoom:1}
@@ -84,6 +84,7 @@ img,img a{border:0}
 #mainBody h2.excerpt{font-size:16px;text-transform:none}
 #mainBody h3{font-size:12px;color:#333}
 #mainBody p{margin-top:15px}
+#contact #mainBody p{margin-top:0}
 #mainBody ul{margin-top:10px;margin-left:0}
 #mainBody li{margin-bottom:8px;margin-left:15px}
 #mainBody hr{margin-top:20px}
@@ -100,10 +101,11 @@ img,img a{border:0}
 #secThree{border:5px ridge #87B4D4;margin:20px 0 10px;padding:15px}
 #secThree h2{margin:0 0 5px;text-align:center}
 #secThree hr,#secThree blockquote{margin-bottom:15px;display:none}
-#secThree blockquote p{display:inline}
-#secThree blockquote p:first-child:before{content:"\201C"}
-#secThree blockquote p:first-child:after{content:"\201D"}
-#secThree blockquote p:last-child:before{content:"\2014\00a0"}
+#archives blockquote{margin-bottom:15px}
+#archives blockquote p,#secThree blockquote p{display:inline}
+#archives blockquote p:first-child:before,#secThree blockquote p:first-child:before{content:"\201C"}
+#archives blockquote p:first-child:after,#secThree blockquote p:first-child:after{content:"\201D"}
+#archives blockquote p:last-child:before,#secThree blockquote p:last-child:before{content:"\2014\00a0"}
 #secFour fieldset{border:2px solid #ddd;padding:10px;margin:10px 0}
 #secFour legend{font-size:110%;font-weight:700;color:#333;text-transform:uppercase;border:1px solid #900;padding:3px}
 #col2Wider{width:643px;float:left}
@@ -115,6 +117,7 @@ img,img a{border:0}
 #topNav a:hover.yo,#topNav a.here{color:#000}
 #topNav a.yoHere{color:#000;padding:2px 4px;border:1px #eee solid}
 .caption{font-size:.8em;text-align:center;margin-top:3px;font-weight:700}
+#contact p:last-of-type>img{margin-top:40px;margin-bottom:-20px;margin-left:-30px}
 #hpBookJacket{float:left;width:200px;height:320px;margin-right:0;margin-top:10px;margin-bottom:0;position:relative}
 .hpBookJacketcap{font-size:85%;text-align:center}
 #buyTag{font-size:150%;font-weight:700;margin:3px auto 0;padding:3px 0;width:175px;text-align:center;text-transform:uppercase;border:2px solid #930}
