@@ -1,0 +1,11 @@
+- 2007 (March 3) Punnett, I. [Seth Roberts](http://media.sethroberts.net/reviews/2007-03-03_Coast_to_Coast_Live_1_Hour.mp3). *Coast to Coast AM*. 60 minutes.
+- 2006 (December 6) Pascal, M., & Schott, F. [Seth Roberts](http://www.restaurantguysradio.com/sle/rg/bin/aud/2006.12.06.01.roberts.mp3). *The Restaurant Guys*. 41 minutes.
+- 2006 (October 9) Shafran, A. [Seth Roberts' Shangri-La Diet is so easy the Fat Guy can do it.](http://weightlossradio.libsyn.com/index.php?post_id=138771)*Dr. Fitness and the Fat Guy Podcast*. 56 minutes.
+- 2006 (August 7) Muelrath, L. [Teleconference with Seth Roberts](http://media.sethroberts.net/reviews/fitnessdreammaker.mp3). *Fitness Dreammaker*. 91 minutes.
+- 2006 (July 19) Roberts, S. Interview for the [audiobook](http://www.amazon.com/Shangri-Diet-Hunger-Anything-Weight-Loss/dp/140010257X/ref=ase_sethrobertand-20/102-8713461-6299310?s=books&v=glance&n=283155&tagActionCode=sethrobertand-20=UTF8). *Tantor Media*. (11 minutes) In 2 parts: [Part 1](http://media.sethroberts.net/reviews/049-ShangriLa_audio_interview.mp3) (6 minutes) [Part 2](http://media.sethroberts.net/reviews/050-ShangriLa_audio_interview.mp3) (5 minutes).
+- 2006 (June 22) Crump, B. [Interview with Seth Roberts](http://media.sethroberts.net/archives/nightsonnatradio.mp3). *Nights on National Radio* (Radio New Zealand). 20 minutes.
+- 2006 (June 13) Jones, A. [The Shangri-La Diet](http://www.dralvinjones.com/detailmedia.php?id=789). *Dr. Alvin Augustus Jones*. 12 minutes.
+- 2006 (May 26) Dolom, I. [The Shangri-La Diet and the crazy scientist behind it](http://www.dailysonic.com/segment1597). *Dailysonic*. 11 minutes. <span class="recom">Recommended</span>
+- 2006 (May 18) Feria, W. [The Shangri-La Diet: Stone Age tricks for losing weight](http://www.msnbc.msn.com/id/12858720/). *MSNBC*. 24 minutes.
+- 2006 (May 17) Reynolds, G., & Smith, H. [The Glenn and Helen Show: Interview with Seth Roberts](http://instapundit.com/archives/030366.php). *Instapundit.com*. 26 minutes.
+- 2006 (May 3) Prager, D. [Interview with Seth Roberts](http://media.sethroberts.net/reviews/dennispragermay3interview.mp3). *The Dennis Prager Show*. 35 minutes. <span class="recom">Recommended</span>

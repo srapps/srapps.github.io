@@ -1,0 +1,40 @@
+# markdown lib
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables"]
+
+# which type of links
+permalink: pretty
+
+# source code
+pygments: true
+
+# encoding
+encoding: UTF-8
+
+# default
+date_format: "%Y%m%d%H%I%S"
+
+intense_debate: "5979410a38aa7bdfd921ff5a921f53b5"
+
+prefix: ""
+
+permalink: /:title/
+
+ng:
+  open: "{{ '{{ "
+  close: "'}} }}"
+
+# this doesn't work on github
+lsi: false
+
+exclude:
+- _config.yml
+- .gitignore
+- Gruntfile.js
+- assets.xml
+- bower.json
+- package.json
+- .rcs
+- bower_components
+- node_modules

@@ -1,0 +1,38 @@
+<section name="assets">
+	<pages>
+		<page name="assets.min.js" test-coverage="false">
+			<modules>
+				<module name="site" controller="system" action="jspackage">
+					<parameters>
+						<script file="bower_components/jquery/jquery.min.js"/>
+						<script file="node_modules/string-utils-cwm/lib/string-utils.js"/>
+						<script file="bower_components/soundmanager2/script/soundmanager2-nodebug-jsmin.js"/>
+						<script file="bower_components/soundmanager2/demo/mp3-player-button/script/mp3-player-button.js"/>
+						<script file="js/app.js"/>
+					</parameters>
+				</module>
+			</modules>
+		</page>
+		<page name="polyfill.min.js" test-coverage="false">
+			<modules>
+				<module name="site" controller="system" action="jspackage">
+					<parameters>
+						<script file="bower_components/nwmatcher/src/nwmatcher.js"/>
+						<script file="bower_components/selectivizr/selectivizr.js"/>
+					</parameters>
+				</module>
+			</modules>
+		</page>
+		<page name="assets.min.css" test-coverage="false">
+			<modules>
+				<module name="site" controller="system" action="csspackage">
+					<parameters>
+						<link file="bower_components/pygments-css/github.css"/>
+						<link file="bower_components/soundmanager2/demo/mp3-player-button/css/mp3-player-button.css"/>
+						<link file="css/app.css"/>
+					</parameters>
+				</module>
+			</modules>
+		</page>
+	</pages>
+</section>

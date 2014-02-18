@@ -1,0 +1,10 @@
+{
+  "name": "sethroberts.net",
+  "dependencies": {
+    "jquery": "~1.8.3",
+    "pygments-css": "https://github.com/richleland/pygments-css.git",
+    "soundmanager2": "https://github.com/scottschiller/SoundManager2.git",
+    "selectivizr": "https://github.com/keithclark/selectivizr.git",
+    "nwmatcher": "https://github.com/dperini/nwmatcher.git"
+  }
+}

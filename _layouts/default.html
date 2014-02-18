@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<title>{{ page.title }}</title>
+	<meta name="Description" content="{{ page.desc }}"/>
+	<link rel="shortcut icon" href="/favicon.ico"/>
+	<link rel="stylesheet" href="/assets/assets.min.css?v={{ site.time | date: site.date_format }}" type="text/css"/>
+	<!--[if lt IE 9]>
+		<script src="/assets/polyfill.min.js"></script>
+	<![endif]-->
+</head>
+<body id="homePage">
+	<!-- Amy Rogers designed and developed this website for Seth Roberts in 2006. -->
+	<div id="contentWrapWider">
+		<div id="col1">
+			<div id="redBg">
+				<div id="sethRoberts">
+					<a href="/"><img src="/images/sethroberts.gif" alt="Seth Roberts" width="30" height="291" border="0" title="Seth Roberts"/></a>
+				</div>
+			</div>
+		</div>
+		<div id="col2Wider">
+			<div id="topNav">
+				<ul>
+					<li id="forums"><a class="yo" href="http://boards.sethroberts.net/">Forums</a></li>
+					<li id="blog"><a class="yo" href="http://blog.sethroberts.net/">Blog</a></li>
+					<li id="buy"><a class="yo" href="http://www.amazon.com/Shangri-Diet-Hunger-Anything-Weight-Loss/dp/0399533168/ref=ed_oe_p/002-0885004-4236054">Buy the Book</a></li>
+				</ul>
+			</div>
+			<div id="mainBody">
+				{{ content }}
+			</div>
+			<div id="footer">
+				&#169; 2005-{{ site.time | date:"%Y" }} ~ Seth Roberts
+			</div>
+		</div>
+		<div id="col3">
+			<ul>
+				<li id="success"><a class="{% if page.page == 'success' %}{{ 'here' }}{% endif %}" href="/stories/">Success Stories</a></li>
+				<li id="blogosphere"><a class="{% if page.page == 'blogosphere' %}{{ 'here' }}{% endif %}" href="/blogosphere/">Blogosphere</a></li>
+				<li id="reviews"><a class="{% if page.page == 'reviews' %}{{ 'here' }}{% endif %}" href="/reviews/">Reviews &amp; Media</a></li>
+				<li id="excerpts"><a class="{% if page.page == 'excerpts' %}{{ 'here' }}{% endif %}" href="/excerpts/">Excerpts</a></li>
+				<li id="science"><a class="{% if page.page == 'science' %}{{ 'here' }}{% endif %}" href="/science/">Science Behind<br/>the Diet</a></li>
+				<li id="about"><a class="{% if page.page == 'about' %}{{ 'here' }}{% endif %}" href="/about/">About the Author</a></li>
+				<li id="contact"><a class="{% if page.page == 'contact' %}{{ 'here' }}{% endif %}" href="/contact/">Contact</a></li>
+				<li id="home"><a href="/">Home</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+<script type="text/javascript" src="/assets/assets.min.js?v={{ site.time | date: site.date_format }}"></script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(["_setAccount", "UA-22788867-1"]);
+	_gaq.push(["_trackPageview"]);
+	(function() {
+		var top_script = document.getElementsByTagName("head")[0],
+		var add_script = function(tag, src) {
+				var node = document.createElement("script");
+				node.type = "text/javascript", node.async = true, node.src = src;
+				tag.parentNode.append(node, tag);
+				return node;
+		};
+		add_script(top_script, ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js");
+	})();
+</script>
+</body>
+</html>

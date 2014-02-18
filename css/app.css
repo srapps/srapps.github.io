@@ -1,0 +1,579 @@
+html, body, div, p, h1, h2, h3, blockquote, ol, ul, li, dl, dt, dd, td, form, fieldset, a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: #9c9 url(/images/background.gif) repeat-x left top; 
+}
+
+img, img a {
+	border: 0;
+}
+
+#contentWrapWider {
+	width:925px;
+	margin: 0 auto;
+	}
+
+#contentWrap {
+	width: 925px;
+	margin: 0 auto;
+}
+
+* html #mainBody p {  /* Thanks, Melanie! */
+/* fix for  Win IE italics bug */
+overflow: visible;
+height: 1%;
+/* fix for  Win IE gap-beneath-float bug */
+display: inline;
+zoom: 1;
+}
+
+#mainBody {
+	font: 0.9em/1.3em "Trebuchet MS", "Times New Roman", sans-serif;
+	padding: 20px 30px;
+	background-color: #fff;
+}
+#mainBody a {
+	color: #900;
+}
+#mainBody a:hover {
+	color: #900;
+	text-decoration: none;
+}
+#mainBody a:visited {
+	color: #900;
+}
+#mainBody h1 {
+	font-size: 19px;
+	margin: 5px 0 10px 0;
+}
+#mainBody h1.larger {
+	font-size: 130%;
+}
+#mainBody h2 {
+	color: #333;
+	font-size: 12px;
+	margin: 20px 0 7px 0;
+	text-transform: uppercase;
+}
+#mainBody h2.excerpt {
+	font-size: 16px;
+	text-transform: none;
+}
+#mainBody h3 {
+	font-size: 12px;
+	color: #333;
+}
+#mainBody p {
+	margin-top: 15px;
+}
+#mainBody ul {
+	margin-top: 10px;
+	margin-left: 0;
+}
+#mainBody li {
+	margin-bottom: 8px;
+	margin-left: 15px;
+}
+#mainBody hr {
+	margin-top: 20px;
+}
+
+.hpalert {
+	width: 120px;
+	background-color: #eee;
+	padding: 20px;
+	margin-left: 10px;
+}
+
+/*  ---- Column 1 ---- */
+#col1 {
+	width: 90px;
+	float: left;
+		}
+
+#redBg {
+	background-color: #900;
+	height: 400px;
+	width: 100%;
+}
+
+#sethRoberts {
+	text-align: right;
+	padding-top: 80px;
+	margin-right: 30px;
+}
+
+/*  ---- Column 2 - Section 1 ---- */
+
+#secOne p:first-of-type {
+	float: left;
+	margin-right: 15px;
+}
+#secOne p:first-of-type > a,
+#secOne p:first-of-type > a > img {
+	display: block;
+	width: 180px;
+	height: 320px;
+}
+
+#secOne p {
+	margin-top: 15px;
+}
+
+/*  ---- Column 2 - Section 2 ---- */
+
+#secTwo p:first-of-type {
+	text-align: center;
+}
+
+#secTwo h3 {
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+#secTwo ul {
+	margin-top: 15px;
+	margin-left: 50px;
+}
+
+/*  ---- Column 2 - Section 3 ---- */
+#secThree {
+	border: 5px ridge #87B4D4;
+	margin: 20px 0 10px 0;
+	padding: 15px;
+}
+#secThree h2 {
+	margin: 0 0 5px;
+	text-align: center;
+}
+#secThree hr,
+#secThree blockquote {
+	margin-bottom: 15px;
+	display: none;
+}
+#secThree blockquote p {
+	display: inline;
+}
+#secThree blockquote p:first-child:before {
+	content: "\201C";
+}
+#secThree blockquote p:first-child:after {
+	content: "\201D";
+}
+#secThree blockquote p:last-child:before {
+	content: "\2014\00a0";
+}
+
+#secFour fieldset {
+	border: 2px solid #ddd;
+	padding: 10px;
+	margin: 10px 0;
+}
+#secFour legend {
+	font-size: 110%;
+	font-weight: bold;
+	color: #333;
+	text-transform:uppercase;
+	border: 1px solid #900;
+	padding: 3px;
+}
+
+
+/*  ---- Column 2 ---- */
+#col2Wider { width: 643px; float: left;}
+
+#col2 {
+	width: 643px;
+	float: left;
+		}
+
+#topNav { }
+
+#topNav ul {
+	list-style: none;
+	text-align: right;
+	margin-bottom: 10px;
+	margin-top: 50px;
+	margin-right: 18px;
+}
+
+#topNav li {
+	display: inline;
+	margin-left: 10px;
+}
+
+#topNav a {
+	font: bold 13px Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1pt;
+	text-transform: uppercase;
+}
+
+#topNav a.yo {
+	color: #EBD600;
+	padding: 2px 4px 2px;
+	border: 1px #eee solid;
+}
+
+#topNav a:hover.yo, #topNav a.here {
+	color: #000;
+}
+
+
+#topNav a.yoHere {
+	color: #000;
+	padding: 2px 4px 2px;
+	border: 1px #eee solid;
+}
+
+
+.caption {
+	font-size: 0.8em;
+	text-align: center;
+	margin-top: 3px;
+	font-weight: bold;
+}
+
+
+
+.mainImage {
+}
+
+#hpBookJacket {
+	float: left;
+	width: 200px;
+	height: 320px;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	position:relative;
+}
+
+.hpBookJacketcap {
+	font-size:85%;
+	text-align:center;
+}
+
+#buyTag {
+	font-size: 150%;
+	font-weight: bold;
+	margin:  3px auto 0;
+	padding: 3px 0;
+	width: 175px;
+	text-align: center;
+	text-transform:uppercase;
+	border: 2px solid #930;
+}
+
+#buyTag a, #buyTag a:visited  {
+	color: #930;
+	text-decoration: none;
+}
+
+#buyTag a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/*  ---- Column 3 ---- */
+
+
+#col3 {
+	float: left;
+	width: 192px;
+	font-size: 0.95em;
+		}
+
+#col3 ul {
+	list-style: none;
+	margin-top: 18px;
+}
+
+#col3 li {
+	margin-left: 10px;
+	/*border-bottom: 1px solid #900;*/
+	padding-bottom: 5px;
+	padding-top: 2px;
+	margin-right: 20px;
+	margin-bottom: 4px;
+}
+
+#firstList li {
+	margin-left: 10px;
+	border-bottom: 1px solid #900;
+	padding-bottom: 5px;
+	padding-top: 2px;
+	margin-right: 20px;
+	margin-bottom: 4px;
+}
+
+#col3 li.longSentence {
+	padding-right: 40px;
+}
+
+
+#col3 li.end {
+	margin-top: 8px;
+	border-bottom: 1px solid #990;
+}
+
+#col3 a {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+#col3 li {
+	padding: 0 5px 5px 10px;
+	border-bottom: 1px solid #900;
+}
+
+#col3 li#home  {
+	padding: 0 5px 5px 10px;
+	border-bottom: 1px solid #990;
+}
+
+
+#col3 a:hover {
+	color: #000;
+}
+
+#col3 a.here {
+	color: #333;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+.totop {
+	text-align: right;
+	font-size: 11px;
+}
+
+#footer {
+	font: 11px "Trebuchet MS", "Times New Roman", sans-serif;
+	margin: 5px 0 0 10px;
+}
+.contact {
+	line-height: 150%;
+}
+
+#subBookJacket {
+	margin: 20px 0 10px;
+
+}
+#bookSection a {
+	color: #900;
+	text-decoration: underline;
+}
+
+#bookSection h2 {
+	color: #000;
+	font-size: 12px;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+#bookSection {
+	font: 13px/1.3em "Trebuchet MS", "Times New Roman", sans-serif;
+	margin-left: 15px;
+}
+
+.littleLarger {
+	font-size: 1em;
+	line-height: 140%;
+	font-weight: bold;
+	color: #333;
+}
+
+#sldBookJacket {
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+.quoteTop {
+	font-size: 110%;
+	line-height: 140%;
+	text-align: right;
+
+}
+.quoteNorm {
+	text-align: right;
+}
+.quoteBox {
+	text-align: right;
+}
+.bookFloatRight {
+	margin-left: 7px;
+	margin-top: 7px;
+	margin-right: 0px;
+	margin-bottom: 7px;
+	float: right;
+}
+.bookFloatLeft {
+	margin-left: 0px;
+	text-align: right;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	float: left;
+	margin-right: 17px;
+}
+#pullBoxRight {
+	margin: 0 0 4px 7px;
+	float: right;
+	padding: 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+#pullBoxRight h2 {
+	color: #333;
+	font-size: 12px;
+	margin: 0 0 0 0;
+	text-transform: uppercase;
+}
+
+#pullBoxLeft {
+	margin: 0 7px 7px 0;
+	float: left;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+#pullBoxLeft h2 {
+	color: #333;
+	font-size: 12px;
+	margin: 0 0 7px 0;
+	text-transform: uppercase;
+}
+
+.MarginTop {
+	margin-top: 5px;
+}
+
+
+#bookTourTitle {
+	color: #666;
+	font-size: 14px;
+	margin: -15px 0 7px 10px;
+	text-transform: uppercase;
+	background: #fff;
+	width: 90px;
+	font-weight: bold;
+	padding: 0 0 0 10px;
+	}
+
+
+
+.quoteDiv {
+	color: #f60;
+	font-weight: bold;
+	text-align: center;
+}
+.smaller {
+	font-size: 0.8em;
+}
+
+.floatBoxLeft {
+	width: 250px;
+	float: left;
+}
+
+.recom {
+	color: #CC6600;
+	font-size: 0.80em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*  ---- Column 2 ---- */
+
+#progress {
+	text-align: center;
+}
+
+#progress h2 {
+	color: #333;
+	font-size: 16px;
+	margin: 20px 0 7px 0;
+	text-transform: none;
+}
+
+#progresscap { font-size: 0.85em/0.90em; }
+
+/* ------ Calendar ------- */
+
+#calendar {
+	position: relative;
+	top: 70px;
+}
+#calTitle {
+	float:left;
+	width: 22px;
+	margin-right: 15px;
+	}
+#calContent {
+	float: left;
+	width: 90px;
+	font-size: 0.80em;
+}
+#calContent p {
+	margin: 5px 0;
+
+}
+
+
+/* ------ Tell a Friend------- */
+
+* html #tellFriendForm fieldset, * html #tellFriendForm textarea { width: 97%  !important;  }
+/* hide from Win IE<7 */
+html>/**/body  #tellFriendForm fieldset, html>/**/body  #tellFriendForm textarea { width: 100%; }
+
+.error { color: #900 !important; }
+.required { font-weight: 700; }
+.required em { font-weight: 400; color: #000 !important;}
+
+/* hide from Win IE<=7 beta*/
+html>/**/body textarea { width: 100%; }
+
+#tellFriendForm {
+	font-size: 0.88em;
+	margin: 0;
+	}
+
+#tellFriendForm fieldset {
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: -5px;
+}
+
+#tellFriendForm legend { display: none; height: 0; font-size: 0; }
+
+#tellFriendForm input.tighten {
+ 	margin: -2px 0 0;
+}
+
+#tellFriendForm textarea {
+	font: 0.9em/1.3em "Trebuchet MS", "Times New Roman", sans-serif;
+	color: #333;
+	width: 100%;
+}
+
+#addresses input {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+/*  ---- Publicity---- */
+

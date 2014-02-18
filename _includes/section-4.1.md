@@ -1,0 +1,2 @@
+- 2007 (July 11) Dador, D. ['Shangri-La Diet' Claims No-Hunger Eat-Anything Results](http://abclocal.go.com/kabc/story?section=health&id=5473710). *KABC-TV News.* 3 minutes.
+- 2006 (April 30) Kapoor, S. [The Shangri-La Diet](http://www.youtube.com/watch?v=hR33LNwgGIc). *CBC News: Sunday Night.* 9 minutes.
