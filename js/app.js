@@ -1,3 +1,8 @@
+// get away from index.html
+if ((""+window.location.href).match(/index.html[#?]*/)) {
+	window.location = (""+window.location.href).replace(/\/index.html([#?]*)/, "\/$1");
+}
+
 $(document).ready(function(){
 	var quotes = $("#secThree").find("blockquote");
 	var lastQ = quotes.length;
